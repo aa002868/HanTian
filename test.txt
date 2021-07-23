@@ -4,7 +4,7 @@
 
 <center>
 <video width="400" controls>
-  <source src="test.mp3" type="video/mp4">
+  <source src="tes2.mov" type="video/mov">
 </video>
 </center>
 

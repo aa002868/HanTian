@@ -1,27 +1,45 @@
 <!DOCTYPE html> 
-<html> 
-<title>
-Han love Tian
-</title>
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<title>Han love Tian</title>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<script type="text/javascript">
+//隱藏TR
+function hide_tr()
+{
+document.getElementById("t1").style.display="none";
+document.getElementById("t2").style.display="";
+}
+</script>
+</head>
+
 <body> 
-
-
-
-<table border="0" background="background.jpg" width="1000" height="667" align="center">
+<table id="t1" border="1" bgcolor="#366333" width="400px" height="300" align="center" style="display:">
+<tr>
+<td><input type="button" value="開始抽獎" onclick="hide_tr()" style="width:400px;height:300px;font-size:50px;"></td>
+</tr>
+<tr>
+</tr>
+</table>
+<table id="t2" border="1" background="" width="" height="" align="center" style="display:none">
+<tr>
+<td>For Tian</td>
+</tr>
 <tr>
 <td>
-<div style="width:400px"></div>
-</td>
-<td>
-
 <video width="400" height="300" controls>
 <source src="test2.mp4" type="video/mp4">
 </video>
-
 </td>
+</tr>
+<tr>
+<td>by Han</td>
 </tr>
 </table>
 
+
+</body> 
+</html>
 
 </body> 
 </html>

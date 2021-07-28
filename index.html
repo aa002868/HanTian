@@ -11,6 +11,12 @@ document.getElementById("t1").style.display="none";
 document.getElementById("t2").style.display="";
   var music = new Audio('only.mp3');
   music.play();
+
+var elem = document.getElementById("love");
+if (elem.requestFullscreen) {
+  elem.requestFullscreen();
+}
+document.getElementById("love").play();
 }
 </script>
 </head>
@@ -28,7 +34,7 @@ body {
 <table id="t2" border="0" background="" width="" height="" align="center" style="display:none">
 <tr>
 <td>
-<video width="400" height="300" controls>
+<video id="love" width="400" height="300" controls>
 <source src="secretplain.mp4" type="video/mp4">
 </video>
 </td>
